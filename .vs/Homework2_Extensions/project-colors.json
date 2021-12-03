@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "71a86bab-eed8-4d6b-af9e-08ae14d8970e": {
+      "ProjectGuid": "71a86bab-eed8-4d6b-af9e-08ae14d8970e",
+      "DisplayName": "Homework2_Extensions",
+      "ColorIndex": 0
+    },
+    "3f0adee2-3445-4192-aac7-05f1328ed5a8": {
+      "ProjectGuid": "3f0adee2-3445-4192-aac7-05f1328ed5a8",
+      "DisplayName": "Extensions",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
