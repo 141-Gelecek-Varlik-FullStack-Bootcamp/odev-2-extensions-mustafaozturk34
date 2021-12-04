@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework2_Extensions", "Hom
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensions", "Extensions\Extensions.csproj", "{3F0ADEE2-3445-4192-AAC7-05F1328ED5A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework2_Extensions_WebApp", "Homework2_Extensions_WebApp\Homework2_Extensions_WebApp.csproj", "{77C51E23-51F7-40B4-BC86-642D815758C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework2_Extensions_WebApp", "Homework2_Extensions_WebApp\Homework2_Extensions_WebApp.csproj", "{77C51E23-51F7-40B4-BC86-642D815758C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

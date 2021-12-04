@@ -1,4 +1,5 @@
-﻿using Homework2_Extensions_WebApp.Models;
+﻿using Homework2_Extensions_WebApp.Filter;
+using Homework2_Extensions_WebApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -18,6 +19,7 @@ namespace Homework2_Extensions_WebApp.Controllers
             _logger = logger;
         }
 
+        [LoginFilter]
         public IActionResult Index()
         {
             return View();
@@ -26,6 +28,38 @@ namespace Homework2_Extensions_WebApp.Controllers
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        //Kullanıcı Kontrol
+        [HttpGet("admin")]
+        [LoginFilter]
+        public string AdminPanel()
+        {
+            return "Welcome User";
+        }
+
+        [HttpGet("worker")]
+        [LoginFilter]
+        public string WorkerPanel()
+        {
+            return "Welcome User";
+        }
+
+        [HttpGet("seller")]
+        [LoginFilter]
+        public string SellerPanel()
+        {
+            return "Welcome User";
+        }
+
+        public string SuccessfulTransaction()
+        {
+            return "successful transaction";
+        }
+
+        public string UnauthorizedAction()
+        {
+            return "Unauthorized Action";
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
